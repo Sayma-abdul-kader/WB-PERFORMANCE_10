@@ -1,0 +1,68 @@
+#div1{
+    border: 10px dotted aqua;
+    background-color: cornsilk;
+    padding: 20px;
+    background-clip: content-box;
+}
+
+#div2{
+    height: 500px;
+    border: 17px ridge yellow;
+    background-image: url('apple.jpg');
+    padding: 25px;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+  
+ background-size: cover;
+
+}
+#div3{
+    border: 20px double black;
+    background-color: seagreen;
+    padding: 10px;
+    background-clip: padding-box;
+}
+#div4{
+     border: 20px dotted black;
+    height: 500px;
+    background: url('js.jpg'), url('twin heart.jpg'), url('ms.jpg');
+    background-repeat: no-repeat;
+background-size: 200px;
+background-position: left, right, center;
+}
+
+#div5{
+    height: 200px;
+    width: 350px;
+    border: 2px solid blue;
+}
+#div5 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 2px ridge grey;
+}
+#div6{
+    height: 200px;
+    width: 350px;
+    border: 2px solid blue;padding-top: 20px;
+    padding-top: 40px;
+    margin: auto;
+}
+#div6 p{
+    border: 2px solid black;
+    margin: -20px 40px 30px;
+}
+.child{
+    border: 2px dotted darkgreen;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+}
+.childe p{
+    color:aqua;
+}
+#kiddo{
+    color:indigo;
+}
